@@ -39,6 +39,7 @@ I also integrated the scraped data with the Spotify API to create a playlist con
 - Fetch the HTML content of the Billboard Hot 100 page for the specified date. Start scraping it using the CSS selector by identifying the specific line of code for the extraction.
 
 - Notice that the billboard's top 100 URL
+- https://www.billboard.com/charts/hot-100/2024-05-01/
 
 ![](https://github.com/AlvinChin1608/day46_100/blob/main/gif/Screenshot%202024-07-02%20at%2016.59.01.png)
 
