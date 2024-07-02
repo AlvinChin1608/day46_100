@@ -22,30 +22,35 @@ I also integrated the scraped data with the Spotify API to create a playlist con
 
 ## Step-by-Step Process
 
-1. Spotify Authentication:
-Use Spotipy for OAuth authentication with Spotify, obtaining a token to interact with the API. The user will need to log in to their Spotify account and paste the provided URL into the console to complete the authentication. A cache token file will created so the user won't need to sign every time
+1. __Spotify Authentication:__
+   
+- Use Spotipy for OAuth authentication with Spotify, obtaining a token to interact with the API. The user will need to log in to their Spotify account and paste the provided URL into the console to complete the authentication. A cache token file will created so the user won't need to sign every time
 
 ![](https://github.com/AlvinChin1608/day46_100/blob/main/gif/Step%201_login.gif)
 
-3. User Prompt to enter the date (YYYY-MM-DD)
-This step also ensures the user provides a valid date in YYYY-MM-DD format.
+3. __User Prompt to enter the date (YYYY-MM-DD):__
+   
+- This step also ensures the user provides a valid date in YYYY-MM-DD format.
 
 ![](https://github.com/AlvinChin1608/day46_100/blob/main/gif/Step%201.gif)
 
-5. Web Scraping with BeautifulSoup:
-Fetch the HTML content of the Billboard Hot 100 page for the specified date. Start scraping it using the CSS selector by identifying the specific line of code for the extraction.
+5. __Web Scraping with BeautifulSoup:__
+   
+- Fetch the HTML content of the Billboard Hot 100 page for the specified date. Start scraping it using the CSS selector by identifying the specific line of code for the extraction.
 
-Notice that the billboard's top 100 URL
+- Notice that the billboard's top 100 URL
 
 ![](https://github.com/AlvinChin1608/day46_100/blob/main/gif/Screenshot%202024-07-02%20at%2016.59.01.png)
 
-4. Searching and collecting Spotify URLs:
-Search for each song on Spotify and collect their URIs.
+4. __Searching and collecting Spotify URLs:__
+
+- Search for each song on Spotify and collect their URIs.
 
 ![](https://github.com/AlvinChin1608/day46_100/blob/main/gif/step%202.gif)
 
-6. Creating and populating Spotify Playlist:
-Create a new playlist on Spotify in the user's account and add the collected song URIs.
+6. __Creating and populating Spotify Playlist:__
+   
+- Create a new playlist on Spotify in the user's account and add the collected song URIs.
 
 ![]([https://github.com/AlvinChin1608/day46_100/blob/main/gif/step%203.gif](https://github.com/AlvinChin1608/day46_100/blob/main/gif/Screenshot%202024-07-02%20at%2016.56.27.png))
 
