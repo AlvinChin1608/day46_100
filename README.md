@@ -24,7 +24,7 @@ I also integrated the scraped data with the Spotify API to create a playlist con
 
 1. __Spotify Authentication:__
    
-- Use Spotipy for OAuth authentication with Spotify, obtaining a token to interact with the API. The user will need to log in to their Spotify account and paste the provided URL into the console to complete the authentication. A cache token file will created so the user won't need to sign every time
+- Use Spotipy for OAuth authentication with Spotify, obtaining a token to interact with the API. The user must log in to their Spotify account and paste the re-directed URL into the console to complete the authentication. A cache token file will be created and store locally on user's computer to avoid re-authentication
 
 ![](https://github.com/AlvinChin1608/day46_100/blob/main/gif/Step%201_login.gif)
 
