@@ -52,6 +52,6 @@ I also integrated the scraped data with the Spotify API to create a playlist con
    
 - Create a new playlist on Spotify in the user's account and add the collected song URIs.
 
-![](https://github.com/AlvinChin1608/day46_100/blob/main/gif/Screenshot%202024-07-02%20at%2016.56.27.png)
+![](https://github.com/AlvinChin1608/day46_100/blob/main/gif/Screenshot%202024-07-02%20at%2016.55.49.png)
 
 
