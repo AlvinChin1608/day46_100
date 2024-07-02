@@ -24,25 +24,30 @@ I also integrated the scraped data with the Spotify API to create a playlist con
 
 1. Spotify Authentication:
 Use Spotipy for OAuth authentication with Spotify, obtaining a token to interact with the API. The user will need to log in to their Spotify account and paste the provided URL into the console to complete the authentication. A cache token file will created so the user won't need to sign every time
+
 ![](https://github.com/AlvinChin1608/day46_100/blob/main/gif/Step%201_login.gif)
 
-2. User Prompt to enter the date (YYYY-MM-DD)
+3. User Prompt to enter the date (YYYY-MM-DD)
 This step also ensures the user provides a valid date in YYYY-MM-DD format.
+
 ![](https://github.com/AlvinChin1608/day46_100/blob/main/gif/Step%201.gif)
 
-3. Web Scraping with BeautifulSoup:
+5. Web Scraping with BeautifulSoup:
 Fetch the HTML content of the Billboard Hot 100 page for the specified date. Start scraping it using the CSS selector by identifying the specific line of code for the extraction.
 
 Notice that the billboard's top 100 URL
+
 ![](https://github.com/AlvinChin1608/day46_100/blob/main/gif/Screenshot%202024-07-02%20at%2016.59.01.png)
 
 4. Searching and collecting Spotify URLs:
 Search for each song on Spotify and collect their URIs.
+
 ![](https://github.com/AlvinChin1608/day46_100/blob/main/gif/step%202.gif)
 
-5. Creating and populating Spotify Playlist:
-Create a new playlist on Spotify in the user's account and add the collected song URIs. 
-![](https://github.com/AlvinChin1608/day46_100/blob/main/gif/step%203.gif)
+6. Creating and populating Spotify Playlist:
+Create a new playlist on Spotify in the user's account and add the collected song URIs.
+
+![]([https://github.com/AlvinChin1608/day46_100/blob/main/gif/step%203.gif](https://github.com/AlvinChin1608/day46_100/blob/main/gif/Screenshot%202024-07-02%20at%2016.56.27.png))
 
 
 
